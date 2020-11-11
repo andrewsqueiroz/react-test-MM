@@ -7,13 +7,13 @@ const Menu = () => {
         
         <ul>
             <li>
-                <Link  to='/politica-de-privacidade'>
-                  Políticas de privacidade
+                <Link  to='/'>
+                  Home
                 </Link>
             </li>
             <li >
-                <Link to='/logout'>
-                  Sair
+                <Link to='/contact'>
+                  Contact us
                 </Link>
             </li>
         </ul>
