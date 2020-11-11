@@ -1,0 +1,7 @@
+span.divider { 
+    display: block;
+    height: 2px ;
+    width: 60px;
+    background-color: #fff;
+    margin: 50px 0 50px 0;
+}

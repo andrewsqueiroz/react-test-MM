@@ -1,0 +1,9 @@
+.TitlePage h1 { 
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3em;
+}
+.TitlePage h1 strong { 
+    text-transform: uppercase;
+    font-weight: 900;
+}

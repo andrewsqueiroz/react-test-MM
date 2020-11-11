@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ea3d3d;
+  color: #fff;
+  font-weight: 300;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.margB80 { 
+  margin-bottom: 80px;
+}
+
+.textBox {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  line-height: 50px;
+
+  background-image: url(./assets/imgs/square.png);
+  background-repeat: no-repeat;
+  min-height: 380px;
+  background-position: right;
+  background-size: 320px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 700px;
+  margin: auto;
+}
+.textBox span {
+  padding: 10px;
+  background-color: #ea3d3d;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .textBox {
+    font-size: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .textBox {
+    background-image:none;
+    border: 6px solid #ee6464
+  }
+  .textBox span {
+    background-color: transparent;
+  }
+}
+
+/* #ea3d3d
+#e73d3d
+#f6f6f6
+#343538 */
