@@ -8,8 +8,10 @@ import logoCompany from '../../assets/imgs/logo.png';
 const Header = () => {
     return (
         <header>
-            <div className="container">
-                <img className="logoCompany" src={logoCompany} alt="m" />
+            <div className="container headerContent">
+                <div>
+                    <img className="logoCompany" src={logoCompany} alt="m" />
+                </div>
                 <Menu />
             </div>
         </header>
