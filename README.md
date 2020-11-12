@@ -4,7 +4,7 @@ Projeto desenvolvido com [Create React App](https://github.com/facebook/create-r
 
 ### `npm install`
 
-Na pasta do raiz do projeto execute o comando acima para baixar as dependências do projeto
+Na pasta raiz do projeto execute o comando acima para baixar as dependências do projeto
 
 ### `npm start`
 
