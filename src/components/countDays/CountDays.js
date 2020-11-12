@@ -4,10 +4,10 @@ import './style.css';
 
 const CountDays = (props) => {
     const [msg, setMsg] = React.useState('');
-    const [days, setDays] = React.useState('0');
-    const [hours, setHours] = React.useState('0');
-    const [minutes, setMinutes] = React.useState('0');
-    const [seconds, setSeconds] = React.useState('0');
+    const [days, setDays] = React.useState('...');
+    const [hours, setHours] = React.useState('...');
+    const [minutes, setMinutes] = React.useState('...');
+    const [seconds, setSeconds] = React.useState('...');
 
     useEffect(() => {
         const timeLimit = new Date("10, 30, 2022, 00:00:00").getTime();
