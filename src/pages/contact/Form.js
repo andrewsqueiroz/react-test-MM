@@ -37,6 +37,7 @@ function ContactForm() {
       /////// aqui ficaria a chamada da api passando o obj 'objetoMsg'
       // condição de sucesso
       setFormMsg('Message sent successfully')
+      limparCampos()
       // condição de falha
       // setFormMsg('Error sending message')
 
@@ -44,6 +45,14 @@ function ContactForm() {
       setFormMsg('All fields are mandatory')
     }
   }
+
+  const limparCampos = () => {
+    setName('')
+    setEmail('')
+    setSubject('')
+    setMessage('')
+    setValidForm(initValidInputs)
+  };
 
   const validInput = (value, target) => {
     setFormMsg('')
@@ -59,6 +68,15 @@ function ContactForm() {
         if (!email) {
             setValidForm(prevState => ({ ...prevState, email: true }))
             return true
+        } else {
+          if (email.length < 5) {
+            setValidForm(prevState => ({ ...prevState, email: true }))
+            return true
+          }
+          if (!email.includes("@") || !email.includes(".com")) {
+            setValidForm(prevState => ({ ...prevState, email: true }))
+              return true
+          }
         }
         setValidForm(prevState => ({ ...prevState, email: false }))
         return false
