@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './style.css'
+import './style.css';
 
 import twitter from '../../assets/imgs/icon-twitter.svg';
 import google from '../../assets/imgs/icon-google.svg';

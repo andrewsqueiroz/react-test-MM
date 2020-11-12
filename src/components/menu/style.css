@@ -12,9 +12,25 @@ ul.menu li {
 
 ul.menu li a { 
     color: #fff;
-    padding: 20px;
+    padding: 20px 0;
+}
+ul.menu li { 
+    padding: 0px 40px;
+}
+ul.menu li:last-child { 
+    padding: 0 0 0 40px;
 }
 
 ul.menu li a:hover { 
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    ul.menu li { 
+        padding: 0px 20px;
+    }
+    ul.menu li:last-child { 
+        padding: 0 0 0 20px;
+    }
+}
+

@@ -4,7 +4,7 @@ import Header from '../components/header/Header';
 
 const Page = props => {
     return (
-        <div>
+        <div className='degrade'>
             <div id="top">
                 <Header></Header>
             </div>

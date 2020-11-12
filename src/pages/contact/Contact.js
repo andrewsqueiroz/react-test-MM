@@ -1,6 +1,6 @@
 import React from 'react';
 
-import style from './style.css'
+import './style.css';
 
 import Title from '../../components/title/Title'
 import SocialMedia from '../../components/socialMedia/SocialMedia'
@@ -10,9 +10,9 @@ import ContactForm from './Form'
 
 function Contact() {
   return (
-    <div className="container margB80">
+    <div className="container padB80">
       <div className="row">
-        <div className="col-md-6 col-lg-4">
+        <div className="col-md-5 col-lg-4">
           <Title regular='Contact' bold='us' /> 
           <Divider />
           <div>
@@ -32,7 +32,7 @@ function Contact() {
           <SocialMedia />
         </div>
 
-        <div className="col-md-6 col-lg-8">
+        <div className="col-md-7 col-lg-7 offset-lg-1">
           <ContactForm />
         </div>
       </div>

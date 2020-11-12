@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import Menu from '../menu/Menu';
-import style from './style.css'
+import './style.css';
 
 import logoCompany from '../../assets/imgs/logo.png';
 

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import style from './style.css'
+import './style.css';
 
 const CountDays = (props) => {
     const [msg, setMsg] = React.useState('');
@@ -10,7 +10,7 @@ const CountDays = (props) => {
     const [seconds, setSeconds] = React.useState('0');
 
     useEffect(() => {
-        const timeLimit = new Date("10, 30, 2030, 00:00:00").getTime();
+        const timeLimit = new Date("10, 30, 2022, 00:00:00").getTime();
         const count = setInterval(function() {
             let dateNow = new Date().getTime();
             let diference = timeLimit - dateNow;

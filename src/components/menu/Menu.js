@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import style from './style.css'
+import './style.css';
 
 const Menu = () => {
     return (

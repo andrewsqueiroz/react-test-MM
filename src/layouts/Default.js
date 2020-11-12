@@ -4,12 +4,12 @@ import Header from '../components/header/Header';
 
 const Default = props => {
     return (
-        <div>
+        <div >
             <div id="top">
                 <Header></Header>
             </div>
 
-            <div>
+            <div className='centerPage'>
                 {props.children}
             </div>
         </div>
